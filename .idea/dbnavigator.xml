@@ -36,7 +36,9 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="77a029d3-46e3-469c-8fb0-a86070cdd0c9" object-ref="schemas/main/tables/django_migrations" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="77a029d3-46e3-469c-8fb0-a86070cdd0c9" />
@@ -49,6 +51,11 @@
     </filter-actions>
     <filter-actions connection-id="77a029d3-46e3-469c-8fb0-a86070cdd0c9" dataset="main.auth_user_groups" active-filter-id="e46d15d2-26f1-4a6f-8423-eb45e32155fe">
       <filter id="e46d15d2-26f1-4a6f-8423-eb45e32155fe" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="77a029d3-46e3-469c-8fb0-a86070cdd0c9" dataset="main.django_migrations" active-filter-id="02bc871e-ec5e-4a2e-b1a7-9f0cadaba0e6">
+      <filter id="02bc871e-ec5e-4a2e-b1a7-9f0cadaba0e6" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
